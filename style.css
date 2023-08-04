@@ -1,0 +1,304 @@
+ /* Navbar */
+
+ .navbar-brand{
+    font-family: 'Fasthand', cursive;
+    font-size: 2.5rem;
+}
+.navbar{
+   padding-bottom: 3.5rem;
+   margin: auto 5%;
+}
+.nav-item{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.nav-link{
+font-size: 18px;
+font-weight: 500;
+color: black;
+}
+.nav-link:hover{
+    color: #9f704b;
+}
+.nav-contact{
+    background-color: #966844;
+}
+.nav-contact:hover{
+    background-color: #c4a792;
+}
+
+
+
+
+
+
+/* heading/ tittle */
+#top{
+    background-image: url("https://img.freepik.com/premium-vector/vector-brush-stroke-abstract-fluid-splash-sale-banner-brushstroke-gradient-paintbrush-blue-indigo-watercolor-textured-background-isolated-splash-white-backdrop_332989-3609.jpg?size=626&ext=jpg&ga=GA1.1.1034205138.1690129083&semt=sph");
+    background-size: cover;
+background-repeat: no-repeat;
+}
+.tittle{
+    padding: 5% 10%;
+}
+.heading{
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3.5rem;
+    padding-bottom: 2%;
+}
+.heading-text{
+    text-align: left;
+    font-size: 1.3rem;
+    padding-bottom: 5%;
+    line-height: 1.5rem;
+}
+.heading-img{
+    width: 100%;
+   
+}
+#heading-img2{
+    display: contents;
+    }
+
+
+
+
+
+/* Quip */
+#Quip{
+background-color: white;
+
+}
+.Quip-heading{
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 1% ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5% 10% 2% ;
+}
+.Quip-htext{
+    padding: 0px 15% 2% ;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.Quip-h3{
+    text-align: left;
+    font-size: 1.4rem;
+}
+.quip-row-2{
+    padding: 6% 2% 5% 6%;
+    text-align: justify;
+}
+.quip-row-1{
+    padding: 4% 0px;
+}
+#span1{
+    color: rgb(219, 219, 5);
+    cursor: pointer;
+}
+#span2{
+    color: green;
+    cursor: pointer;
+}
+#span3{
+    color:rgb(88, 88, 221);
+    cursor: pointer;
+}
+.testimonial-image{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+.Quip-btn{
+   margin: 1%;
+}
+
+
+
+
+/* help */
+
+#help{
+    background-color: rgb(201, 199, 218);
+    text-align: center;
+    padding: 7% 10%;
+}
+.help-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding-bottom: 5%;
+    font-size: 3rem;
+}
+.card{
+   text-align: left;
+}
+.card img :hover, .card:hover{
+    width: 102%;
+    background-color: rgb(230, 244, 252);
+}
+
+
+
+
+/* Secure */
+
+#Secure{
+    background-color: white;
+}
+.Secure-heading{
+font-size: 3rem;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: left;
+}
+.Secure-subheading{
+    padding: 5% 0;
+    font-size: 1.2rem;
+}
+.Secure-text{
+padding: 5% 0px;
+text-align: justify;
+}
+.Secure-img{
+    width: 95%;
+    transform: scale(1.1);
+}
+.Secure-main{
+    padding: 10% 10%;
+}
+.Secure-parts{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.btn-colour{
+    font-weight: 500;
+    color: #258fcc;
+}
+.btn-colour:hover{
+    font-size: 1.05rem;
+    color: #1e6188;
+}
+
+
+
+
+/* Trusted */
+#Trusted{
+    background-color: white;
+    padding: 5% 5%;
+}
+.Trusted-heading{
+    padding-bottom: 4%;
+    font-size: 2rem;
+    text-align: center;
+}
+.brand{
+    padding: 4%;
+}
+
+
+
+
+/* Quote */
+#Quote{
+    padding: 10% 24%;
+    background-color: rgb(159, 197, 202);
+}
+.Quote-text{
+    font-size: 1.3rem;
+}
+.Quote-img{
+    width: 15%;
+}
+
+
+
+/* Sign-up */
+
+#Sign-up{
+    padding: 7% 15%;
+   background-image: url("https://img.freepik.com/free-vector/abstract-ornamental-flowers-wallpaper_23-2148372822.jpg?size=626&ext=jpg&ga=GA1.1.1034205138.1690129083&semt=ais");
+   background-size: contain, cover;
+   text-align: center;
+
+}
+.Sign-up-heading{
+    font-size: 3rem;
+    font-weight: bold;
+color: white;
+filter: none;
+}
+.input-email{
+    margin: 3% auto;
+    padding: 6px;
+    width: 35%;
+}
+.input-email::placeholder{
+    text-align: left;
+}
+
+.contact{
+    position: fixed;
+    bottom: 0px;
+    right: 1%;
+}
+
+
+
+#footer{
+    background-color: rgb(19, 18, 18);
+    color: white;
+    padding: 8% 0;
+    line-height: 190%;
+}
+#footer li{
+    list-style: none;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+.last img{
+    width: 6%;
+}
+#footer p{
+    color: rgb(131, 128, 128);
+}
+
+
+@media screen and (max-width:480px){
+    .heading-img{
+display: none;
+    }
+    #top{
+       background-color: rgb(225, 245, 248);
+       background-image: none;
+    }
+#heading-img2{
+display: inline;
+width: 90%;
+}
+h1{
+    font-size: 2rem;
+}
+.Sign-up-heading{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.input-email{
+    margin: 3% auto;
+    padding: 7px;
+    text-align: center;
+    width: 45%;
+}
+.last img{
+    width: 15%;
+}
+.testimonial-image{
+    text-align: center;
+    padding: 5% 10%;
+    width: 90%;
+}
+.Secure-subheading{
+text-align: justify;
+}
+}
