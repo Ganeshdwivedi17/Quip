@@ -43,7 +43,7 @@ background-repeat: no-repeat;
 }
 .heading{
     text-align: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3.5rem;
     padding-bottom: 2%;
 }
@@ -55,7 +55,6 @@ background-repeat: no-repeat;
 }
 .heading-img{
     width: 100%;
-   
 }
 #heading-img2{
     display: contents;
@@ -68,6 +67,7 @@ background-repeat: no-repeat;
 /* Quip */
 #Quip{
 background-color: white;
+padding: 5% ;
 
 }
 .Quip-heading{
@@ -78,8 +78,7 @@ background-color: white;
     padding: 5% 10% 2% ;
 }
 .Quip-htext{
-    padding: 0px 15% 2% ;
-    text-align: center;
+    text-align: left;
     font-size: 1.3rem;
 }
 .Quip-h3{
@@ -134,6 +133,7 @@ background-color: white;
 .card img :hover, .card:hover{
     width: 102%;
     background-color: rgb(230, 244, 252);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -158,7 +158,7 @@ padding: 5% 0px;
 text-align: justify;
 }
 .Secure-img{
-    width: 95%;
+    width: 100%;
     transform: scale(1.1);
 }
 .Secure-main{
@@ -262,43 +262,88 @@ filter: none;
 #footer p{
     color: rgb(131, 128, 128);
 }
-
+html,
+body{
+width:100%;
+overflow-x:hidden;
+}
 
 @media screen and (max-width:480px){
+   
+  
+
     .heading-img{
-display: none;
+        display: none;
+            }
+
+    #heading-img2{
+        display: inline;
+        width: 100%;
+        }
+
+    .btn-tittle{
+width: 100%;
     }
+
+    .heading{
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+    .heading-text{
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    
     #top{
        background-color: rgb(225, 245, 248);
        background-image: none;
+       padding-bottom: 5%;
     }
-#heading-img2{
-display: inline;
-width: 90%;
+
+ #Quip{
+padding: 9% 5% ;
 }
-h1{
-    font-size: 2rem;
+
+.Quip-heading{
+    font-size: 2.1rem;
+    font-weight: 800;
+    text-align: left;
+}
+.Quip-htext{
+    text-align: justify;
+    text-justify: 1px;
+    padding: 0%;
+}
+.Secure-heading{
+    font-size: 1.9rem;
+}
+.Secure-img{
+    width: 110%;
+    transform: scale(1.1);
+}
+#Trusted{
+    padding: 7% 0px;
+}
+.Trusted-heading{
+    font-size: 1.3rem;
+}
+.Quote-text{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#Sign-up{
+    text-align: left;
 }
 .Sign-up-heading{
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
+    font-size: 1.7rem;
+    text-align: center;
 }
 .input-email{
     margin: 3% auto;
-    padding: 7px;
-    text-align: center;
-    width: 45%;
+    padding: 6px;
+    width: 100%;
 }
-.last img{
-    width: 15%;
-}
-.testimonial-image{
-    text-align: center;
-    padding: 5% 10%;
-    width: 90%;
-}
-.Secure-subheading{
-text-align: justify;
+#Sign-up button{
+    width: 100%;
 }
 }
